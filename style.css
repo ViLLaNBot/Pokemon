@@ -1,0 +1,21 @@
+.col-sm-12{
+    text-align: center;
+    height: 200px;
+}
+.col-sm-4{
+    height:200px;
+    background: slategray;
+}
+@font-face {
+    font-family: Yozakura;
+    src: url(YOZAKURA-Regular.otf);
+}
+
+body{
+    color:red;
+    background: black;
+    font-family: Yozakura;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
