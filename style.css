@@ -1,17 +1,24 @@
-/* general styles */
+
 @font-face{
-    font-family: Yazakura;
-    src: url(yosazkura)
+  font-family: lakeShore;
+  src: url('Lakeshore-Regular.otf');
 }
 html, body {
     height: 100%;
     width: 100%;
     background: black;
-    color: #4b4747;
-    font-family: Yazakura;
-    
+    color: rgb(57, 137, 253)
+    font-family: lakeShore;
+   }
+.ninjaFont{
+  font-family: lakeShore;
+  color: rgb(57, 137, 253);
+}
 
-  }
+
+.col-sm-6 text-center"{
+
+}
 
   /* padded section */
   .pad-section {
@@ -33,7 +40,7 @@ html, body {
     padding: 0;
   }
   /* additional sections */
-  .home {
+  .kenjiSection {
     background: url(video_games-149636.jpg!d) no-repeat center center fixed;
     display: table;
     height: 100%;
@@ -44,33 +51,26 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
   }
-  #about {
+  .kenjiStylesh1{
+    color: hsla(226, 71%, 48%, 0.85);
+    font-size: 125px;
   }
+  .kenjiStyles h3{
+    color:hsla(226, 71%, 48%, 0.85);
+    font-size: 75px;
+  }
+  .kenjiStyles h5{
+    color:hsla(226, 71%, 48%, 0.85);
+    font-size: 45px;
+
+  }
+  
   #services {
     background-color:rgb(19, 19, 19);
     color: rgb(58, 58, 91)
   }
-  #services .glyphicon {
-    border: 2px solid #FFFFFF;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 60px;
-    height: 140px;
-    line-height: 140px;
-    text-align: center;
-    vertical-align: middle;
-    width: 140px;
-  }
-  #information {
-    background: url(haunter.jpg) no-repeat center center fixed;
-    display: table;
-    height: 800px;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  .gyojin{
+    background-color: rgba(29, 29, 31,.67)(29, 29, 31,.67)\\\;
   }
   #information .panel {
     opacity: 0.85;
@@ -88,3 +88,67 @@ html, body {
   footer .glyphicon:hover {
     color: #306d9f;
   }
+  .myNavIcon{
+
+    background-image:url("dragonButton.jpeg");
+    background-size: contain;
+    height:50px;
+    width:50px;
+   
+    border-radius: 100%
+  }
+  .pokemonWayButton{
+
+    background-image: url("dragonTiger.jpeg");
+    background-size: contain;
+    height:150px;
+    width:150px;
+   
+   
+    border-radius: 100%
+    
+  }
+
+  .manWayButton{
+
+    background-image: url("fart_header.jpg");
+    background-size: contain;
+    background-position: center;
+    height:150px;
+    width:150px;
+   
+   
+    border-radius: 100%
+    
+  }
+  .harmonyWayButton{
+
+    background-image: url("dragonSamurai.jpg");
+    background-size:contain;
+    background-position: center;
+    
+    height:150px;
+    width:150px;
+    background-repeat: no-repeat;
+   
+    border-radius: 100%
+    
+  }
+  .dominanceWayButton{
+
+    background-image: url("dragonTiger.jpeg");
+    background-size: contain;
+    height:150px;
+    width:150px;
+    background-repeat: no-repeat;
+   
+    border-radius: 100%
+    
+  }
+  .philosophy{
+    background: grey;
+    margin: none;
+    width:100%;
+
+  }
+  
