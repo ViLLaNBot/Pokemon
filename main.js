@@ -24,6 +24,7 @@ let takeshi = {};
     let groudonHp = $(".hp2");
     let groudonAtk = $(".atk2");
     let groudonDef=$(".def2");
+    
     let groudonAttacks=$(".special2")
     
     groudonHp.text("HP: "+ groudonStats.stats[5].base_stat);
@@ -89,8 +90,12 @@ $('#grP').text("All Pokémon exist with a natural order unseen elsewhere in naut
 
 })
 
-// ("#attackButton").click(function(){
-
+// $("html").keydown(function(){
+// $(".opener").fadeOut(500);
 
 
 // })
+
+
+
+

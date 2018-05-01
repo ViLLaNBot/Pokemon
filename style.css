@@ -194,3 +194,34 @@ font-size: 6em;
 color:#a72222
 
 }
+.hiddenBody{
+  opacity: 0;
+}
+
+.opener{
+background: url(Gyojin.jpg) no-repeat center center fixed;
+z-index: 1;
+    height: 1200px;
+    position: relative;
+    width: 100%px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
