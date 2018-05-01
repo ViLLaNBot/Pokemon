@@ -3,31 +3,45 @@
   font-family: lakeShore;
   src: url('Lakeshore-Regular.otf');
 }
-html, body {
+ .html, body{
     height: 100%;
     width: 100%;
     background: black;
-    color: rgb(57, 137, 253)
-    font-family: lakeShore;
+    color: rgb(169, 169, 169);
+    font-family: 'Cormorant Unicase', serif
    }
 .ninjaFont{
   font-family: lakeShore;
-  color: rgb(57, 137, 253);
+  color: 
 }
+.kenjiSection h1{
+  font-size: 10em;
+  color:#a72222
+}
+.kenjiSection h3{
+  font-size: 5em;
+  font-family: 'Cormorant Unicase', serif;
+}
+.kenjiSection h5{
+  font-size: 3.7em;
+  font-family: 'Cormorant Unicase', serif;
+}
+.kenjiSection .text-center{
+padding-top:5%;
+font-family: 'Cormorant Unicase', serif;
+} 
+.kenjiSection .text-center h3, h5{
+  padding: 5%;
 
-
-.col-sm-6 text-center"{
 
 }
-
-  /* padded section */
-  .pad-section {
+.pad-section {
     padding: 50px 0;
   }
   .pad-section img {
     width: 100%;
   }
-  /* vertical-centered text */
+
   .text-vcenter {
     display: table-cell;
     text-align: center;
@@ -39,7 +53,7 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  /* additional sections */
+ 
   .kenjiSection {
     background: url(video_games-149636.jpg!d) no-repeat center center fixed;
     display: table;
@@ -51,43 +65,18 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
   }
-  .kenjiStylesh1{
-    color: hsla(226, 71%, 48%, 0.85);
-    font-size: 125px;
-  }
-  .kenjiStyles h3{
-    color:hsla(226, 71%, 48%, 0.85);
-    font-size: 75px;
-  }
-  .kenjiStyles h5{
-    color:hsla(226, 71%, 48%, 0.85);
-    font-size: 45px;
 
-  }
+
   
-  #services {
-    background-color:rgb(19, 19, 19);
-    color: rgb(58, 58, 91)
-  }
-  .gyojin{
-    background-color: rgba(29, 29, 31,.67)(29, 29, 31,.67)\\\;
-  }
+  
+
+  
   #information .panel {
     opacity: 0.85;
   }
-  #google_map {
-    height: 500px;
-  }
-  footer {
-    padding: 20px 0;
-  }
-  footer .glyphicon {
-    color: #333333;
-    font-size: 60px;
-  }
-  footer .glyphicon:hover {
-    color: #306d9f;
-  }
+ 
+
+
   .myNavIcon{
 
     background-image:url("dragonButton.jpeg");
@@ -146,9 +135,62 @@ html, body {
     
   }
   .philosophy{
-    background: grey;
+    
     margin: none;
     width:100%;
+    color: #a72222;
+    text-align: center;
 
   }
-  
+  .philosophy h2{
+    font-size: 10em;
+   
+  }
+.philosophy h4{
+  font-size: 4em;
+  text-align: center;
+
+}
+.philosophy h5{
+  font-size: 3.5em;
+ 
+}
+.philosophy p{
+  font-size: 3em;
+ 
+}
+.philosophyText{
+  color: #a72222;
+  background-size: contain;
+}
+.philosophyText p{
+  font-size: 2.2em;
+}
+.philosophyText h5{
+  font-size: 2.8em;
+ 
+}
+.defenseButton{
+background-image:  url(sheild_icon.png);
+height:150px;
+width:150px;
+background-repeat: no-repeat;
+background-size: contain;
+
+border-radius: 100%
+}
+.attackButton{
+  background-image:  url(sowrdIcon.png);
+  height:150px;
+  width:150px;
+  background-repeat: no-repeat;
+  background-size:contain;
+ 
+  border-radius: 100%
+}
+
+.threeText {
+font-size: 6em;
+color:#a72222
+
+}
