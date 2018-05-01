@@ -12,8 +12,8 @@ let takeshi = {};
     let haunterAttacks = $(".special1");
     
     haunterHp.text("HP:"+ haunterStats.stats[5].base_stat);
-    haunterDef.text("ATK:"+ haunterStats.stats[4].base_stat);
-    haunterAtk.text("DEF:"+ haunterStats.stats[3].base_stat);
+    haunterAtk.text("ATK:"+ haunterStats.stats[4].base_stat);
+    haunterDef.text("DEF:"+ haunterStats.stats[3].base_stat);
     haunterAttacks.text("Attacks:" +  haunterStats.moves[0].move.name + ", " + haunterStats.moves[1].move.name + ", " +haunterStats.moves[2].move.name);
     takeshi.haunter = (haunterStats);
     
@@ -27,8 +27,8 @@ let takeshi = {};
     let groudonAttacks=$(".special2")
     
     groudonHp.text("HP: "+ groudonStats.stats[5].base_stat);
-    groudonDef.text("ATK: "+ groudonStats.stats[4].base_stat);
-    groudonAtk.text("DEF: "+ groudonStats.stats[3].base_stat);
+    groudonAtk.text("ATK: "+ groudonStats.stats[4].base_stat);
+    groudonDef.text("DEF: "+ groudonStats.stats[3].base_stat);
     groudonAttacks.text("Attacks: " +  groudonStats.moves[0].move.name + ", " + groudonStats.moves[1].move.name + ", " + groudonStats.moves[2].move.name)
     takeshi.groudon = groudonStats;
  
@@ -41,8 +41,8 @@ let takeshi = {};
     let absolAttacks = $(".special3")
     
     absolHp.text("HP:"+ absolStats.stats[5].base_stat);
-    absolDef.text("ATK:"+ absolStats.stats[4].base_stat);
-    absolAtk.text("DEF:"+ absolStats.stats[3].base_stat);
+    absolAtk.text("ATK:"+ absolStats.stats[4].base_stat);
+    absolDef.text("DEF:"+ absolStats.stats[3].base_stat);
     absolAttacks.text("Attacks: " +  absolStats.moves[0].move.name + ", " + absolStats.moves[1].move.name + ", " + absolStats.moves[2].move.name)
     takeshi.absol = (absolStats)
  
@@ -89,8 +89,10 @@ $('#grP').text("All Pokémon exist with a natural order unseen elsewhere in naut
 
 })
 
-// ("#attackButton").click(function(){
+$("#attackButton").click(function(){
+  $(".offenseStat").toggleClass("hiddenStat");
 
-
-
-// })
+})
+$("#defenseButton").click(function(){
+  $(".defenseStat").toggleClass("hiddenStat")
+});
