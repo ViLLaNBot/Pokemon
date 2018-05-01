@@ -194,6 +194,12 @@ font-size: 6em;
 color:#a72222
 
 }
+
+
+.hiddenStat{
+  display:none;
+}
+
 .hiddenBody{
   opacity: 0;
 }
@@ -224,4 +230,3 @@ z-index: 1;
     opacity: 1;
   }
 }
-
