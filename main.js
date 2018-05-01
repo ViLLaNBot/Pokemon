@@ -24,6 +24,7 @@ let takeshi = {};
     let groudonHp = $(".hp2");
     let groudonAtk = $(".atk2");
     let groudonDef=$(".def2");
+    
     let groudonAttacks=$(".special2")
     
     groudonHp.text("HP: "+ groudonStats.stats[5].base_stat);
@@ -96,3 +97,4 @@ $("#attackButton").click(function(){
 $("#defenseButton").click(function(){
   $(".defenseStat").toggleClass("hiddenStat")
 });
+
