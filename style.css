@@ -1,231 +1,214 @@
-
-@font-face{
+@font-face {
   font-family: lakeShore;
   src: url('Lakeshore-Regular.otf');
 }
- .html, body{
-    height: 100%;
-    width: 100%;
-    background: black;
-    color: rgb(169, 169, 169);
-    font-family: 'Cormorant Unicase', serif
-   }
-.ninjaFont{
+
+.html,
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: rgb(169, 169, 169);
+  font-family: 'Cormorant Unicase', serif
+}
+
+.ninjaFont {
   font-family: lakeShore;
-  
 }
-.kenjiSection h1{
+
+.kenjiSection h1 {
   font-size: 10em;
-  color:#a72222
+  color: #a72222
 }
-.kenjiSection h3{
+
+.kenjiSection h3 {
   font-size: 5em;
   font-family: 'Cormorant Unicase', serif;
 }
-.kenjiSection h5{
+
+.kenjiSection h5 {
   font-size: 3.7em;
   font-family: 'Cormorant Unicase', serif;
 }
-.kenjiSection .text-center{
-padding-top:5%;
-font-family: 'Cormorant Unicase', serif;
-} 
-.kenjiSection .text-center h3, h5{
-  padding: 5%;
 
-
+.kenjiSection .text-center {
+  padding-top: 5%;
+  font-family: 'Cormorant Unicase', serif;
 }
+
+.kenjiSection .text-center h3,
+h5 {
+  padding: 5%;
+}
+
 .pad-section {
-    padding: 50px 0;
-  }
-  .pad-section img {
-    width: 100%;
-  }
+  padding: 50px 0;
+}
 
-  .text-vcenter {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-  }
-  .text-vcenter h1 {
-    font-size: 4.5em;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-  }
- 
-  .kenjiSection {
-    background: url(video_games-149636.jpg!d) no-repeat center center fixed;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.pad-section img {
+  width: 100%;
+}
 
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
 
-  
-  
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
 
-  
-  #information .panel {
-    opacity: 0.85;
-  }
- 
+.kenjiSection {
+  background: url(video_games-149636.jpg!d) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+#information .panel {
+  opacity: 0.85;
+}
 
-  .myNavIcon{
+.myNavIcon {
+  background-image: url("dragonButton.jpeg");
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%
+}
 
-    background-image:url("dragonButton.jpeg");
-    background-size: contain;
-    height:50px;
-    width:50px;
-   
-    border-radius: 100%
-  }
-  .pokemonWayButton{
+.pokemonWayButton {
+  background-image: url("dragonTiger.jpeg");
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%
+}
 
-    background-image: url("dragonTiger.jpeg");
-    background-size: contain;
-    height:150px;
-    width:150px;
-   
-   
-    border-radius: 100%
-    
-  }
+.manWayButton {
+  background-image: url("fart_header.jpg");
+  background-size: contain;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%
+}
 
-  .manWayButton{
+.harmonyWayButton {
+  background-image: url("dragonSamurai.jpg");
+  background-size: contain;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  border-radius: 100%
+}
 
-    background-image: url("fart_header.jpg");
-    background-size: contain;
-    background-position: center;
-    height:150px;
-    width:150px;
-   
-   
-    border-radius: 100%
-    
-  }
-  .harmonyWayButton{
+.dominanceWayButton {
+  background-image: url("dragonTiger.jpeg");
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  border-radius: 100%
+}
 
-    background-image: url("dragonSamurai.jpg");
-    background-size:contain;
-    background-position: center;
-    
-    height:150px;
-    width:150px;
-    background-repeat: no-repeat;
-   
-    border-radius: 100%
-    
-  }
-  .dominanceWayButton{
+.philosophy {
+  margin: none;
+  width: 100%;
+  color: #a72222;
+  text-align: center;
+}
 
-    background-image: url("dragonTiger.jpeg");
-    background-size: contain;
-    height:150px;
-    width:150px;
-    background-repeat: no-repeat;
-   
-    border-radius: 100%
-    
-  }
-  .philosophy{
-    
-    margin: none;
-    width:100%;
-    color: #a72222;
-    text-align: center;
+.philosophy h2 {
+  font-size: 10em;
+}
 
-  }
-  .philosophy h2{
-    font-size: 10em;
-   
-  }
-.philosophy h4{
+.philosophy h4 {
   font-size: 4em;
   text-align: center;
+}
 
-}
-.philosophy h5{
+.philosophy h5 {
   font-size: 3.5em;
- 
 }
-.philosophy p{
+
+.philosophy p {
   font-size: 3em;
- 
 }
-.philosophyText{
+
+.philosophyText {
   color: #a72222;
   background-size: contain;
 }
-.philosophyText p{
+
+.philosophyText p {
   font-size: 2.2em;
 }
-.philosophyText h5{
-  font-size: 2.8em;
- 
-}
-.defenseButton{
-background-image:  url(sheild_icon.png);
-height:150px;
-width:150px;
-background-repeat: no-repeat;
-background-size: contain;
 
-border-radius: 100%
+.philosophyText h5 {
+  font-size: 2.8em;
 }
-.attackButton{
-  background-image:  url(sowrdIcon.png);
-  height:150px;
-  width:150px;
+
+.defenseButton {
+  background-image: url(sheild_icon.png);
+  height: 150px;
+  width: 150px;
   background-repeat: no-repeat;
-  background-size:contain;
- 
+  background-size: contain;
+  border-radius: 100%
+}
+
+.attackButton {
+  background-image: url(sowrdIcon.png);
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 100%
 }
 
 .threeText {
-font-size: 6em;
-color:#a72222
-
+  font-size: 6em;
+  color: #a72222
 }
 
-
-.hiddenStat{
-  display:none;
+.hiddenStat {
+  display: none;
 }
 
-.hiddenBody{
+.hiddenBody {
   opacity: 0;
 }
 
-.opener{
-background: url(Gyojin.jpg) no-repeat center center fixed;
-z-index: 1;
-    height: 1200px;
-    position: relative;
-    width: 100%px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: contain;
-  }
-
+.opener {
+  background: url(Gyojin.jpg) no-repeat center center fixed;
+  z-index: 1;
+  height: 1200px;
+  position: relative;
+  width: 100%px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
 
 @keyframes fadeInOut {
   0% {
     opacity: 0;
   }
-
   45% {
     opacity: .5;
   }
-
   100% {
     opacity: 1;
   }
