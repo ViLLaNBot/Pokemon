@@ -13,7 +13,7 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
  
  * My Goal: FLip the concept of cute anime creatures everyone knows and loves on its head.
  
- ![alt text](https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg)
+ ![alt text](https://i.pinimg.com/originals/e7/f5/77/e7f57712a484142875f1e955a9425f77.jpg)
    
     - Can you make pokémon frightening rather than cute and sweet?
        
