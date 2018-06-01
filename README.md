@@ -12,6 +12,8 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
 ### h3 Design Challenges
  
  * My Goal: FLip the concept of cute anime creatures everyone knows and loves on its head.
+ 
+ ![alt text](https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg)
    
     - Can you make pokémon frightening rather than cute and sweet?
        
