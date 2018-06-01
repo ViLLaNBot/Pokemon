@@ -1,14 +1,15 @@
-# Pokemon     Inline-style: ![alt text](https://geek-festival.fr/wp-content/uploads/2017/05/Pixel-art-Bulbi.jpg)
+![alt text](https://crystal-cdn2.crystalcommerce.com/photos/6330565/splashBanner_pokemon.jpg)
 
-#1        Gyojin-Ryu Pokémon
 
-#2  An design experiment to make cute monsters look scary (and learn some Boostrap too).
+# H1        Gyojin-Ryu!   My  Pokémon Project
+
+## H2  An design experiment to make cute monsters look scary (and learn some Boostrap too).
 
 This page was produced during my fourth week at the New York Code and Design Academy.  This was my second foray into web design 
 and I decied to tackle the following challenges in addition to learning HTML/CSS5
 
 
-#3 Design Challenges
+### h3 Design Challenges
  
  * My Goal: FLip the concept of cute anime creatures everyone knows and loves on its head.
    
@@ -38,7 +39,7 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
         still feeling free to explore things in a different direction.
     
     
-#3 Technical Challenges
+### 3 Technical Challenges
  
  * This is my second website ever, the code was intentionally left the way it was when turned in
   
@@ -52,6 +53,6 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
         
         
         
-         Inline-style: ![alt text](https://s-media-cache-ak0.pinimg.com/originals/ae/bd/eb/aebdeb00aa140387e5111e4875de7d80.png)
+    Thanks! ![alt text](https://geek-festival.fr/wp-content/uploads/2017/05/Pixel-art-Bulbi.jpg)
     
     
