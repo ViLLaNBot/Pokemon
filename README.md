@@ -46,7 +46,7 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
     
 ###  Technical Challenges
 
- ![alt text] (http://i0.kym-cdn.com/photos/images/newsfeed/001/056/516/241.png)
+ ![alt text](http://i0.kym-cdn.com/photos/images/newsfeed/001/056/516/241.png)
  
  * This is my second website ever, the code was intentionally left the way it was when turned in
   
