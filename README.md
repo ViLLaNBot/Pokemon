@@ -46,7 +46,7 @@ and I decied to tackle the following challenges in addition to learning HTML/CSS
     
 ###  Technical Challenges
 
- ![alt text](http://i0.kym-cdn.com/photos/images/newsfeed/001/056/516/241.png)
+ ![alt text](http://fc08.deviantart.net/fs71/i/2010/141/9/4/Pikachu_number_13__Comp__Nerd_by_CCLJ2002.jpg)
  
  * This is my second website ever, the code was intentionally left the way it was when turned in
   
